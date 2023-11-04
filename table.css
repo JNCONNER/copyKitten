@@ -1,0 +1,24 @@
+.cell{
+    border:black solid 1q;
+    padding:2px;
+    color:blue;
+    font: size 32pt;
+}
+
+div{
+    margin:20px;
+}
+
+.row-1{
+    border-top:none;
+}
+
+.column-1{
+    border-left:none;
+}
+
+
+
+
+
+
