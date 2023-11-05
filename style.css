@@ -1,12 +1,41 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
+#first {
+  background-color: red;
+  width: 100px;
+  height: 65px;
+  padding:10px;
+  border: 1px solid black;
+  margin-top: 100px;
+  background-clip: content-box;
+  }
+#second {
+    background-color: red;
+    width: 200px;
+    height: 100px;
+    padding: 100px 60px 100px 30px;
+    border: 5px solid black;
+    margin-block-end: 60px;
+    margin-top: 100px;
+    background-clip: content-box;
+    }
+  #third {
+      background-color: red;
+      width: 100px;
+      height: 65px;
+      padding: 10px 40px 60px 40px;
+      border: 1px solid black;
+      margin-trim: 60px;
+      background-clip: content-box;
+      }
+  #fourth {
+  background-color: red;
+  width: 200px;
+  height: 65px;
+  padding:10px;
+  border: 5px solid black;
+  margin-inline: 200px;
+  background-clip: content-box;
+  }
 
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  min-height: 800px;
-}
+    
+
 
